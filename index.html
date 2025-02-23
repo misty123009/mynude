@@ -22,7 +22,7 @@
             event.preventDefault();
             
             const formData = new FormData(this);
-            fetch("https://script.google.com/macros/s/AKfycbwBmZLGpFEb5qIr5Ve7pnA3j-SDYvhrONbsf7J9hQU0kjHfXXyYESsJt_-i_4c4wySpTg/exec", {
+            fetch("https://script.google.com/macros/s/AKfycbyURJjhsg18ypA5RpEo1ZODa1j7GtcF3gf_W6rPY0VulDLVXJy1QO7F5XE-12vXPaRFZw/exec", {
                 method: "POST",
                 body: formData
             }).then(response => response.text())
